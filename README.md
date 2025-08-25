@@ -1,2 +1,58 @@
-# osx
-OutSystems Pentesting Framework
+# OutSystems Penetration Testing Toolkit
+
+
+A toolkit for penetration testing of **OutSystems applications**.  
+
+
+---
+
+## Modules
+
+| # | Module          | Description                                                                 |
+|---|-----------------|-----------------------------------------------------------------------------|
+| 1 | `osenum`        | Screens enumeration for OutSystems (selenium based) applications                              |
+| 2 | `osscan`        | OutSystems reconnaissance and vulnerability scanner (Script By LUCAS 504R3S)                         |
+| 3 | `password_spray`| Password spray testing for OutSystems login endpoints (Users, ECT_Provider, SQL) |
+
+---
+
+## Usage
+
+```bash
+# Clone the repository
+git clone https://github.com/yourusername/outsystems-pt-toolkit.git
+cd outsystems-pt-toolkit
+
+# Run
+python3 osx.py
+```
+
+Inside the console:
+
+```bash
+osx > show
+osx > use osenum
+```
+
+---
+
+## TODO / Roadmap
+
+- [ ] Implement SQL Injection testing  
+- [ ] Add IDOR (Insecure Direct Object Reference) testing  
+- [ ] Implement script to register as a user and use that auth for further testing  
+- [ ] Improve module integration & automation  
+
+---
+
+## Disclaimer
+
+This project is **for educational and authorized security testing only**.  
+Do not use against systems without explicit permission.  
+
+---
+
+## Credits
+
+- OS-Scan by **LUCAS 504R3S**  
+- Toolkit by **HX**
