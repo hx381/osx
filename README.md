@@ -1,8 +1,6 @@
 # OutSystems Penetration Testing Toolkit
 
-
 A toolkit for penetration testing of **OutSystems applications**.  
-
 
 ---
 
@@ -10,8 +8,8 @@ A toolkit for penetration testing of **OutSystems applications**.
 
 | # | Module          | Description                                                                 |
 |---|-----------------|-----------------------------------------------------------------------------|
-| 1 | `osenum`        | Screens enumeration for OutSystems applications (selenium based)                               |
-| 2 | `osscan`        | OutSystems reconnaissance and vulnerability scanner (Script By LUCAS 504R3S)                         |
+| 1 | `osenum`        | Screens enumeration for OutSystems applications (selenium based)            |
+| 2 | `osscan`        | OutSystems reconnaissance and vulnerability scanner (Script By LUCAS 504R3S)|
 | 3 | `password_spray`| Password spray testing for OutSystems login endpoints (Users, ECT_Provider, SQL) |
 
 ---
@@ -39,12 +37,26 @@ osx (osenum) > run
 
 ---
 
+## Screenshot (PoC)
+
+![OutSystems Toolkit](./poc.png)
+
+---
+
 ## TODO / Roadmap
 
 - [ ] Implement SQL Injection testing  
 - [ ] Add IDOR (Insecure Direct Object Reference) testing  
 - [ ] Implement script to register as a user and use that auth for further testing  
 - [ ] Improve module integration & automation  
+
+---
+
+## Contributions
+
+If you encounter issues with your target, some scripts might need tweaking.  
+- Open an **issue** with details  
+- Or DM me directly on [LinkedIn](https://www.linkedin.com/in/hamza-snoussi-158421189/)
 
 ---
 
