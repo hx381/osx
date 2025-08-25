@@ -10,7 +10,7 @@ A toolkit for penetration testing of **OutSystems applications**.
 
 | # | Module          | Description                                                                 |
 |---|-----------------|-----------------------------------------------------------------------------|
-| 1 | `osenum`        | Screens enumeration for OutSystems (selenium based) applications                              |
+| 1 | `osenum`        | Screens enumeration for OutSystems applications (selenium based)                               |
 | 2 | `osscan`        | OutSystems reconnaissance and vulnerability scanner (Script By LUCAS 504R3S)                         |
 | 3 | `password_spray`| Password spray testing for OutSystems login endpoints (Users, ECT_Provider, SQL) |
 
@@ -20,8 +20,8 @@ A toolkit for penetration testing of **OutSystems applications**.
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/outsystems-pt-toolkit.git
-cd outsystems-pt-toolkit
+git clone https://github.com/hx381/osx
+cd osx
 
 # Run
 python3 osx.py
@@ -32,6 +32,9 @@ Inside the console:
 ```bash
 osx > show
 osx > use osenum
+osx (osenum) > options
+...
+osx (osenum) > run
 ```
 
 ---
